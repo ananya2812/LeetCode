@@ -12,7 +12,7 @@ public class DetectCapital {
       return true;
     } else if (word.toLowerCase().equals(word)) {
       return true;
-    } else if (word.substring(0,0).toUpperCase().equals(word.substring(0,0))
+    } else if (word.substring(0, 0).toUpperCase().equals(word.substring(0, 0))
         && word.substring(1).toLowerCase().equals(word.substring(1))) {
       return true;
     } else {
