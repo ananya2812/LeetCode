@@ -24,9 +24,6 @@ public class PowerOfFour {
     return false;
   }
 
-  /*
-   * Best Runtime
-   */
   public static boolean isPowerOfFour2(int num) {
     if (0 == num) {
       return false;
