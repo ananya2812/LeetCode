@@ -1,4 +1,4 @@
-package April;
+package April.Week1;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,10 +6,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/*
+ * Given an array of strings, group anagrams together. Input: ["eat", "tea", "tan", "ate", "nat",
+ * "bat"], Output: [ ["ate","eat","tea"], ["nat","tan"], ["bat"] ]
+ * 
+ */
 public class GroupAnagrams {
 
   public static void main(String[] args) {
-     String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+    String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
     List<List<String>> res = groupAnagrams2(strs);
     for (int i = 0; i < res.size(); i++) {
       List val = res.get(i);
