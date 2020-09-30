@@ -7,6 +7,8 @@ import java.util.Arrays;
  * each number, also in sorted non-decreasing order.
  * 
  * Input: [-4,-1,0,3,10] Output: [0,1,9,16,100]
+ * 
+ * Tag: Medium
  */
 
 public class SquareOfSortedArray {
